@@ -1,0 +1,62 @@
+{
+  "name": "My Bali Dogs Rescue",
+  "slug": "my-bali-dogs-rescue",
+  "tagline": "Giving Bali's abandoned dogs a second chance at life.",
+  "description": "A digital sanctuary connecting compassionate humans with rescued street dogs. Adopt, donate, or volunteer to end the cycle of suffering.",
+  "domain": "mybalidogsrescue.org",
+  "brand": {
+    "personality": [
+      "warm",
+      "hopeful",
+      "grounded",
+      "compassionate",
+      "transparent"
+    ],
+    "values": [
+      "every life matters",
+      "transparency in funding",
+      "education over judgment",
+      "community-driven rescue"
+    ],
+    "visualMood": "Sun-drenched naturalism. Warm earth tones, lush rice-paddy greens, and the golden light of a Bali sunset. Candid photography of happy dogs. Generous whitespace that lets the stories breathe.",
+    "voiceAttributes": [
+      "speaks with deep empathy but no guilt-tripping",
+      "focuses on tangible impact",
+      "celebrates the resilience of the dogs",
+      "approachable and conversational"
+    ],
+    "references": [
+      "High-end eco-tourism editorials",
+      "National Geographic nature photography",
+      "Modern, transparent non-profit platforms like Charity: Water"
+    ]
+  },
+  "stack": {
+    "framework": {
+      "name": "Astro",
+      "why": "Ships zero JavaScript by default, making the site incredibly fast on 3G networks in Bali while maintaining perfect SEO for global donors."
+    },
+    "database": {
+      "name": "Turso (LibSQL)",
+      "why": "Edge-based SQLite that is absurdly fast, has a generous free tier, and easily handles the structured data of dog profiles and contacts."
+    },
+    "auth": {
+      "name": "None required",
+      "why": "This is a public-facing conversion and editorial site; no user accounts are necessary, removing massive overhead."
+    },
+    "hosting": {
+      "name": "Vercel",
+      "why": "Global edge CDN ensures the site loads instantly whether the visitor is in Seminyak, Sydney, or Seattle."
+    },
+    "payments": {
+      "name": "Stripe Checkout",
+      "why": "The gold standard for trust. Handles global currencies, recurring subscriptions, and PCI compliance off-site."
+    },
+    "cms": {
+      "name": "Astro Content Collections",
+      "why": "Allows staff to write Markdown files for dogs and blogs, which Astro compiles with strict type safety at build time."
+    }
+  },
+  "version": "1.0",
+  "createdAt": "2026-04-01"
+}
